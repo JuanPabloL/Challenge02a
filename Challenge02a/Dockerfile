@@ -16,7 +16,7 @@ EXPOSE 8081
 # ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
 COPY ["Challenge02a.csproj", "Challenge02a/"]
-COPY ["Infrastructure/Infrastructure.csproj", "Infrastructure/"]
+#COPY ["Infrastructure/Infrastructure.csproj", "Infrastructure/"]
 # COPY ["Application/Application.csproj", "Application/"]
 # COPY ["Domain/Domain.csproj", "Domain/"]
 # COPY ["Shared/Shared.csproj", "Shared/"]
